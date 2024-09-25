@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; /*Ngilangin margin bawaan */
+    background-color: azure; /* Warna latar belakang */
+}
+
+table {
+    width: 50px;
+    border-collapse: collapse;
+    margin: 0 auto; /*otomatis memusatkan tabel*/
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0a4ca;
+}
+
+td {
+    background-color: #f0ed5f;
+}
